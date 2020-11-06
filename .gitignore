@@ -13,3 +13,7 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache/
+
+# Binaries
+**/bin/*
+*.tar
