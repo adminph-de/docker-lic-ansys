@@ -1,0 +1,14 @@
+
+title: Template Documentation
+description: Build the Project Documentation
+show_downloads: true
+google_analytics: UA-174405517-1
+url: "http://github.code-snipes.de/ps-code-snipes"
+theme: jekyll-theme-modernist
+maintinance: true
+
+github:
+  owner_name: "Patrick Hayo"
+  zip_url: https://github.com/adminph-de/ps-code-snipes/download.zip
+  tar_url: https://github.com/adminph-de/ps-code-snipes/download.tar
+  repository_url: https://github.com/adminph-de/ps-code-snipes
