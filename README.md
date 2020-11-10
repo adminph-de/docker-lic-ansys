@@ -1,9 +1,9 @@
 <!--
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** Foobar,adminph-de, ps-code-snipes, N00ky2010, patrick.hayo@flsmidth.com
+*** Foobar,adminph-de, docker-lic-ansys, N00ky2010, patrick.hayo@flsmidth.com
 -->
 
-# Foobar
+# ANSYS License Server as Docker Container
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -14,22 +14,23 @@
 
 <br />
 <p align="left">
-  <a href="https://github.com/adminph-de/ps-code-snipes">
+  <a href="https://github.com/adminph-de/docker-lic-ansys">
     <img src="images/logo.png" alt="Code Snipes" width="35%" height="35%">
   </a>
   <p align="left">
-    Foobar is a Python library for dealing with word pluralization.
+    Delpying and Running <b>ANSYS License Server</b> in a Docker container.<br />
+    This is <b><u>NOT</u></b> supported by ANSYS Inc. Use it on your own risk.<br />
     <br />
-    <a href="https://github.com/adminph-de/ps-code-snipes/issues">Bug Report</a>
+    <a href="https://github.com/adminph-de/docker-lic-ansys/issues">Bug Report</a>
     ·
-    <a href="https://github.com/adminph-de/ps-code-snipes/issues">Request Feature</a>
+    <a href="https://github.com/adminph-de/docker-lic-ansys/issues">Request Feature</a>
   </p>
 </p>
 
 
 ## Content
 
-- Foobar
+- ANSYS License Server
   - [Content](#content)
   - [Installation](#installation)
   - [Usage](#usage)
@@ -40,10 +41,11 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+pull the pre- build Docker image on [DockerHub](https://hub.docker.com/) 
+or follow the instructions to build your own container.
 
 ```bash
-pip install foobar
+pull codesnipes/ansyslics:latest
 ```
 
 ## Usage
@@ -72,7 +74,7 @@ Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License. S
 
 ## Contact
 
-Project Link: [https://github.com/adminph-de/ps-code-snipes](https://github.com/adminph-de/ps-code-snipes)
+Project Link: [https://github.com/adminph-de/docker-lic-ansys](https://github.com/adminph-de/docker-lic-ansys)
 
 [Patrick Hayo](patrick.hayo@flsmidth.com)
 
@@ -89,16 +91,16 @@ Project Link: [https://github.com/adminph-de/ps-code-snipes](https://github.com/
 
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/adminph-de/ps-code-snipes.svg?style=flat-square
-[contributors-url]: https://github.com/adminph-de/ps-code-snipes/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/adminph-de/ps-code-snipes.svg?style=flat-square
-[forks-url]: https://github.com/adminph-de/ps-code-snipes/network/members
-[stars-shield]: https://img.shields.io/github/stars/adminph-de/ps-code-snipes.svg?style=flat-square
-[stars-url]: https://github.com/adminph-de/ps-code-snipes/stargazers
-[issues-shield]: https://img.shields.io/github/issues/adminph-de/ps-code-snipes.svg?style=flat-square
-[issues-url]: https://github.com/adminph-de/ps-code-snipes/issues
-[license-shield]: https://img.shields.io/github/license/adminph-de/ps-code-snipes.svg?style=flat-square
-[license-url]: https://github.com/adminph-de/ps-code-snipes/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/adminph-de/docker-lic-ansys.svg?style=flat-square
+[contributors-url]: https://github.com/adminph-de/docker-lic-ansys/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/adminph-de/docker-lic-ansys.svg?style=flat-square
+[forks-url]: https://github.com/adminph-de/docker-lic-ansys/network/members
+[stars-shield]: https://img.shields.io/github/stars/adminph-de/docker-lic-ansys.svg?style=flat-square
+[stars-url]: https://github.com/adminph-de/docker-lic-ansys/stargazers
+[issues-shield]: https://img.shields.io/github/issues/adminph-de/docker-lic-ansys.svg?style=flat-square
+[issues-url]: https://github.com/adminph-de/docker-lic-ansys/issues
+[license-shield]: https://img.shields.io/github/license/adminph-de/docker-lic-ansys.svg?style=flat-square
+[license-url]: https://github.com/adminph-de/docker-lic-ansys/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickhayo/?locale=en_US
 [product-screenshot]: images/screenshot.png

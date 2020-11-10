@@ -17,3 +17,18 @@ Gemfile.lock
 # Binaries
 **/bin/*
 *.tar
+
+# Exclude all files with private RSA Keys stored in
+# Defined credentil files are: [somename]_rsa, [somename].pem and files with [somename].pkk
+*_rsa
+*.pem
+*.ppk
+
+# Exclude speical files
+sshrc
+
+# Exclude Binaries
+**/bin/*
+
+# Exclude Docker Development
+**/container/*

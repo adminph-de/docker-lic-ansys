@@ -15,7 +15,7 @@ RUN localedef -i en_US -f UTF-8 en_US.UTF-8
 
 WORKDIR /root
 
-COPY ANSYSLICMAN_2020R2_LINX64.tar .
+COPY bin/ANSYSLICMAN_2020R2_LINX64.tar .
 RUN mkdir 2020R2 && \
     tar -xf ANSYSLICMAN_2020R2_LINX64.tar -C ~/2020R2 && \
     ~/2020R2/INSTALL -silent -LM
