@@ -27,7 +27,6 @@
   </p>
 </p>
 
-
 ## Content
 
 - ANSYS License Server
@@ -51,11 +50,14 @@ pull codesnipes/ansyslics:latest
 ## Usage
 
 ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+docker container run --name ansyslic \
+        --hostname ansyslic \
+        --publish 1084:1084 \
+        --publish 1055:10554 \
+        --publish 2325:2325 \
+        --publish 49921:49921 \
+        --volume ansyslic_licensefile:/ansys_inc/shared_files/licensing/license_files/ \
+        codesnipes/ansyslic:latest
 ```
 
 ## Contributing
@@ -80,15 +82,12 @@ Project Link: [https://github.com/adminph-de/docker-lic-ansys](https://github.co
 
 [![N00ky2010](https://img.shields.io/twitter/follow/N00ky2010)](https://www.twitter.com/N00ky2010)
 
-
-
 ## Acknowledgements
 
 * [Janaina Laguardia Areal Hyldvang, Ph.D.](https://www.linkedin.com/in/janainahyldvang/)
 * [Jakob Daugaard](https://www.linkedin.com/in/jakobdaugaard/?locale=en_US)
 * [Senthil Kumar Bose](https://www.linkedin.com/in/senthil-kumar-bose-6900582/)
 * [Javed Khan](https://www.linkedin.com/in/javed-khan-674863164/)
-
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/adminph-de/docker-lic-ansys.svg?style=flat-square
@@ -103,5 +102,3 @@ Project Link: [https://github.com/adminph-de/docker-lic-ansys](https://github.co
 [license-url]: https://github.com/adminph-de/docker-lic-ansys/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickhayo/?locale=en_US
-[product-screenshot]: images/screenshot.png
-[product-screenshot-run]: images/screenshot_run.png
