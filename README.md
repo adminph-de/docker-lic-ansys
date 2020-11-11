@@ -53,7 +53,7 @@ pull codesnipes/ansyslics:latest
 docker container run --name ansyslic \
         --hostname ansyslic \
         --publish 1084:1084 \
-        --publish 1055:10554 \
+        --publish 1055:1055 \
         --publish 2325:2325 \
         --publish 49921:49921 \
         --volume ansyslic_licensefile:/ansys_inc/shared_files/licensing/license_files/ \
